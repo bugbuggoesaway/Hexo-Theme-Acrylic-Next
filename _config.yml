@@ -8,8 +8,8 @@
 
 # 站点设置
 site:
-  name:                   # 左上角显示内容
-    class:  text          #i_class/text/img 
+  name: # 左上角显示内容
+    class: text          #i_class/text/img
     custom: Acrylic       #自定义内容
   siteIcon: /img/avatar.webp # 网页icon
   icon: /img/avatar.webp     # 页脚的icon、加载动画默认的icon
@@ -17,42 +17,42 @@ site:
 
 # 导航栏
 nav:
-#导航栏左侧
+  #导航栏左侧
   left:
     enable: true
     menu:
-      # 我的:
-      #   博客:
-      #     icon: /img/avatar.webp
-      #     url: /
-# 导航栏内容
+    # 我的:
+    #   博客:
+    #     icon: /img/avatar.webp
+    #     url: /
+  # 导航栏内容
   menu:
-    # 文库:
-    #   url: false
-    #   child:
-    #     文章列表:
-    #       url: /archives/
-    #       icon: fas fa-box-archive
-    #     全部分类:
-    #       url: /categories/
-    #       icon: fas fa-cube
-    #     全部标签:
-    #       url: /tags/
-    #       icon: fas fa-tags
-    # 友链:
-    #   url: false
-    #   child:
-    #     友链鱼塘:
-    #       url: /fcircle/
-    #       icon: fas fa-fish-fins
-    #     友情链接:
-    #       url: /links/
-    #       icon: fas fa-user-group
-    #     宝藏博主:
-    #       url: javascript:travelling()
-    #       icon: fas fa-bus
+  # 文库:
+  #   url: false
+  #   child:
+  #     文章列表:
+  #       url: /archives/
+  #       icon: fas fa-box-archive
+  #     全部分类:
+  #       url: /categories/
+  #       icon: fas fa-cube
+  #     全部标签:
+  #       url: /tags/
+  #       icon: fas fa-tags
+  # 友链:
+  #   url: false
+  #   child:
+  #     友链鱼塘:
+  #       url: /fcircle/
+  #       icon: fas fa-fish-fins
+  #     友情链接:
+  #       url: /links/
+  #       icon: fas fa-user-group
+  #     宝藏博主:
+  #       url: javascript:travelling()
+  #       icon: fas fa-bus
 
-# 导航栏右侧快捷菜单
+  # 导航栏右侧快捷菜单
   right: # @todo 允许用户自定义
     travellings: true   #开往
     random: true        #
@@ -66,42 +66,42 @@ hometop:
     title: 分享设计<br>与科技生活
     url: blog.zhheo.com
     icon:
-      # AE:
-      #   img: /img/icon/ae.png
-      #   color: '#989bf8'
-      # Sketch:
-      #   img: /img/icon/Sketch.png
-      #   color: '#ffffff'
-      # Docker:
-      #   img: /img/icon/docker.png
-      #   color: '#57b6e6'
-      # ps:
-      #   img: /img/icon/ps.png
-      #   color: '#4082c3'
-      # FinalCutPro:
-      #   img: /img/icon/FinalCutPro.png
-      #   color: '#ffffff'
-      # Python:
-      #   img: /img/icon/Python.png
-      #   color: '#ffffff'
-      # Swift:
-      #   img: /img/icon/Swift.png
-      #   color: '#eb6840'
-      # Principle:
-      #   img: /img/icon/Principle.png
-      #   color: '#8f55ba'
-      # illustrator:
-      #   img: /img/icon/illustrator.png
-      #   color: '#f29e39'
-      # CSS3:
-      #   img: /img/icon/CSS3.png
-      #   color: '#2c51db'
-      # JS:
-      #   img: /img/icon/JS.png
-      #   color: '#f7cb4f'
-      # Git:
-      #   img: /img/icon/git.png
-      #   color: '#df5b40'
+    # AE:
+    #   img: /img/icon/ae.png
+    #   color: '#989bf8'
+    # Sketch:
+    #   img: /img/icon/Sketch.png
+    #   color: '#ffffff'
+    # Docker:
+    #   img: /img/icon/docker.png
+    #   color: '#57b6e6'
+    # ps:
+    #   img: /img/icon/ps.png
+    #   color: '#4082c3'
+    # FinalCutPro:
+    #   img: /img/icon/FinalCutPro.png
+    #   color: '#ffffff'
+    # Python:
+    #   img: /img/icon/Python.png
+    #   color: '#ffffff'
+    # Swift:
+    #   img: /img/icon/Swift.png
+    #   color: '#eb6840'
+    # Principle:
+    #   img: /img/icon/Principle.png
+    #   color: '#8f55ba'
+    # illustrator:
+    #   img: /img/icon/illustrator.png
+    #   color: '#f29e39'
+    # CSS3:
+    #   img: /img/icon/CSS3.png
+    #   color: '#2c51db'
+    # JS:
+    #   img: /img/icon/JS.png
+    #   color: '#f7cb4f'
+    # Git:
+    #   img: /img/icon/git.png
+    #   color: '#df5b40'
 
   categoryGroup:
     G1:
@@ -137,15 +137,15 @@ aside:
     Sticky: "newestPost,allInfo"
 
   card:
-    avatar: 
+    avatar:
     content: 这有关于<b>开发</b>、<b>技术</b>相关的问题和看法，还有对于动漫的一些<b>杂评</b>。<br>相信你可以在这里找到对你有用的知识和教程。
     information:
-      # Github:
-      #   icon: fa-brands fa-github
-      #   url: https://github.com/hexo-theme-Acrylic/Hexo-Theme-Acrylic-Next
-      # Mail:
-      #   icon: fa-solid fa-envelope
-      #   url: mailto:a@nalex.top
+    # Github:
+    #   icon: fa-brands fa-github
+    #   url: https://github.com/hexo-theme-Acrylic/Hexo-Theme-Acrylic-Next
+    # Mail:
+    #   icon: fa-solid fa-envelope
+    #   url: mailto:a@nalex.top
     button:
       text: 个人主页
       url: /
@@ -160,7 +160,7 @@ aside:
       desc: 获取最新信息和帮助
       img: /img/qqgroup.png
 
-  toc: 
+  toc:
     post: true
     page: false
 
@@ -178,45 +178,45 @@ aside:
 footer:
   information:
     left:
-      # Github:
-      #   icon: fa-brands fa-github
-      #   url: /
-      # Mail:
-      #   icon: fa-solid fa-envelope
-      #   url: /
+    # Github:
+    #   icon: fa-brands fa-github
+    #   url: /
+    # Mail:
+    #   icon: fa-solid fa-envelope
+    #   url: /
     right:
-      # 网易云:
-      #   icon: fa-solid fa-music
-      #   url: /
-      # bilibili:
-      #   icon: fa-brands fa-bilibili
-      #   url: /
+    # 网易云:
+    #   icon: fa-solid fa-music
+    #   url: /
+    # bilibili:
+    #   icon: fa-brands fa-bilibili
+    #   url: /
 
   group:
-    # 导航:
-    #   文章归档: /archives/
-    #   文章分类: /categories/
-    #   文章标签: /tags/
-    #   友链: /link/
-    # 服务:
-    #   51la统计: https://51.la/
-    #   百度统计: https://tongji.baidu.com/
-    #   TianliCDN: https://ql.tianli0.top/
-    # Acrylic:
-    #   主题官网: https://acrylic.zhheo.com/
-    #   Github: https://github.com/hexo-theme-Acrylic/Hexo-Theme-Acrylic
-    #   Heo: https://blog.zhheo.com/
-    # 推荐友链:
-    #   Heo: https://blog.zhheo.com/
-    #   Akilar: https://akilar.top
+  # 导航:
+  #   文章归档: /archives/
+  #   文章分类: /categories/
+  #   文章标签: /tags/
+  #   友链: /link/
+  # 服务:
+  #   51la统计: https://51.la/
+  #   百度统计: https://tongji.baidu.com/
+  #   TianliCDN: https://ql.tianli0.top/
+  # Acrylic:
+  #   主题官网: https://acrylic.zhheo.com/
+  #   Github: https://github.com/hexo-theme-Acrylic/Hexo-Theme-Acrylic
+  #   Heo: https://blog.zhheo.com/
+  # 推荐友链:
+  #   Heo: https://blog.zhheo.com/
+  #   Akilar: https://akilar.top
 
   randomlink: false
 
   cdn:
-    url: 
-    desc: 
+    url:
+    desc:
   rss:
-    url: 
+    url:
   license:
     url: https://creativecommons.org/licenses/by/4.0/
     icon: fas fa-closed-captioning
@@ -227,7 +227,7 @@ page:
   tags: true
   categories: true
   default:
-    cover: /img/hello.jpg   
+    cover: /img/hello.jpg
 
 # 文章页默认设置
 post:
@@ -242,7 +242,7 @@ post:
     wordcount: false
     readtime: false
     pv: false
-    comment: false      
+    comment: false
   award:
     enable: false
     wechat:
@@ -250,10 +250,18 @@ post:
     url:
   covercolor: #文章cover取色  
     enable: false
-    local: false  
+    local: false
 
 # 关于界面
-about: false
+about:
+  authorinfo: false
+  contentinfo: false
+  skillsinfo: false
+  personalities: false
+  motto: false
+  hobbies: false
+  other: false
+  award: false
 
 # 404页面
 errorpage:
@@ -283,7 +291,7 @@ loading:
 # 第三方设置
 thirdparty:
   wordcount: false
-  busuanzi: 
+  busuanzi:
     enable: false
     usecomment: false #当评论系统开启时文章页面使用评论系统的统计数据
   search:
@@ -295,11 +303,11 @@ thirdparty:
       enable: false
       preload: false
       CDN:
-    
+
   aplayer:
     enable: false
     server: tencent
-    id: 1708664797  
+    id: 1708664797
     api: "https://music.startly.cn/?server=:server&type=:type&id=:id&auth=:auth&r=:r" #自定义api    
   #中控台拓展
   consolePlus: true
@@ -315,9 +323,9 @@ comment:
 
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 # 插入额外代码 如：统计，广告等
-extends: 
+extends:
   head: # 在head中插入
-    # - <script></script>
+  # - <script></script>
   body: # 在body中插入
 
 # 非必要勿动

@@ -1,12 +1,27 @@
-<% if (theme.about) { %>
 <div id="about-page">
-    <%- partial('partial/compoment/about/authorinfo' ) %>
-    <%- partial('partial/compoment/about/contentinfo' ) %>
-    <%- partial('partial/compoment/about/skillsinfo' ) %>
-    <%- partial('partial/compoment/about/personalities' ) %>
-    <%- partial('partial/compoment/about/motto' ) %>
-    <%- partial('partial/compoment/about/hobbies' ) %>
-    <%- partial('partial/compoment/about/other' ) %>
-    <%- partial('partial/compoment/about/award' ) %>
+    <% if (theme.about.authorinfo) { %>
+        <%- partial('partial/compoment/about/authorinfo') %>
+    <% } %>
+    <% if (theme.about.contentinfo) { %>
+        <%- partial('partial/compoment/about/contentinfo') %>
+    <% } %>
+    <% if (theme.about.skillsinfo) { %>
+        <%- partial('partial/compoment/about/skillsinfo') %>
+    <% } %>
+    <% if (theme.about.personalities) { %>
+        <%- partial('partial/compoment/about/personalities') %>
+    <% } %>
+    <% if (theme.about.motto) { %>
+        <%- partial('partial/compoment/about/motto') %>
+    <% } %>
+    <% if (theme.about.hobbies) { %>
+        <%- partial('partial/compoment/about/hobbies') %>
+    <% } %>
+    <% if (theme.about.other) { %>
+        <%- partial('partial/compoment/about/other') %>
+    <% } %>
+    <% if (theme.about.award) { %>
+        <%- partial('partial/compoment/about/award') %>
+    <% } %>
 </div>
-<% } %>
+
